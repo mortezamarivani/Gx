@@ -27,8 +27,8 @@ Vue.use(yarn);
 Vue.use(VueMaterial)
 Vue.use(VueTheMask);
 
-//Vue.http.options.root = "https://gxapi.ahanjosh.ir/";
-Vue.http.options.root = "https://localhost:44325/";
+Vue.http.options.root = "https://gxapi.ahanjosh.ir/";
+//Vue.http.options.root = "https://localhost:44325/";
 
 export const router = new VueRouter({
   routes: Routes,
